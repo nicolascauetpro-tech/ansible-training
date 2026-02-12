@@ -1,1 +1,4 @@
-
+---
+# Indique à Ansible que cette machine se trouve physiquement sur cet ordinateur.
+# La variable se trouvant dans le fichier all.yml sera appliquée à tous les groupes.La variable se trouvant dans le fichier all.yml sera appliquée à tous les groupes.
+ansible_host: localhost
