@@ -7,21 +7,13 @@ Apprendre à organiser un projet Ansible simple et écrire les fichiers de confi
 
 ### 📁 Les fichiers du projet :
 
-⚙️ ansible.cfg
-
-C'est le fichier de réglages généraux.
-📒 inventory.yml
-
-Contient inventaire des machines hôte.
-🗂️ group_vars/
-
-Contient les variables de chaque groupe définis dans le fichier inventaire, chaque groupe possède son propre fichier.
-
-webservers.yml : Contient les informations spécifiques aux serveurs Web (ex: port 80).
-
-dbservers.yml : Contient les informations pour les serveurs de Base de données (ex: port 3306).
-
-
+<ul>
+  <li>⚙️ ansible.cfg C'est le fichier de réglages généraux.</li>
+  <li>📒 inventory.yml Contient inventaire des machines hôte.</li>
+  <li>🗂️ group_vars Contient les variables de chaque groupe définis dans le fichier inventaire, chaque groupe possède son propre fichier.</li>
+  <li>webservers.yml : Contient les informations spécifiques aux serveurs Web (ex: port 80).</li>
+  <li>dbservers.yml : Contient les informations pour les serveurs de Base de données (ex: port 3306).</li>
+</ul>
 
 ### ✅ Tests fonctionnels
 
