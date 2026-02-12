@@ -1,3 +1,4 @@
 ---
-db_port: 5432 # Permet de définir un port personnalisé.
-db_engine: postgresql # Permet de préciser quel moteur de base de données j'utilise.
+# Configuration spécifique pour le groupe des bases de données
+db_port: 5432 # Port réseau par défaut pour PostgreSQL.
+db_engine: postgresql # Nom du moteur pour l'installation automatisée plus tard.
