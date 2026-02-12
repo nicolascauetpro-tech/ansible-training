@@ -1,4 +1,4 @@
-# 📂 Mon premier inventaire Ansible
+# 📂 Mon premier inventaire statique Ansible
 
 ## 📋 Présentation du Projet
 
